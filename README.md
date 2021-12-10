@@ -1,13 +1,14 @@
-# Dépôt pour les projets S5 (PR103)
+## Auteurs
+- <em> Quatadah Nasdami </em>
+- <em> Roger Gaëtan </em>
 
-- Lien vers le sujet du projet :
+### Règles de compilation
+#### Lancer le jeu
+```bash
+	$make
+```
 
-	<https://www.labri.fr/perso/renault/working/teaching/projets/2020-21-S5-Tilings.php>
-
-- Lien vers le projet sur la forge :
-
-	<https://thor.enseirb-matmeca.fr/ruby/projects/projetss5>
-
-- Lien vers la documentation sur l'utilisation de git :
-
-	<https://thor.enseirb-matmeca.fr/ruby/docs/repository/git>
+### Lancer les tests
+```bash
+	$make test
+```
